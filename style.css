@@ -63,7 +63,7 @@ footer{
   justify-content: center;
 }
 
-ul#skills li{
+ul.skills li{
   display: inline;
   margin: 0.7em;
 }
