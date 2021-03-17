@@ -65,5 +65,9 @@ footer{
 
 ul.skills li{
   display: inline;
-  margin: 0.7em;
+  margin: 0.5em;
+}
+
+.skills{
+  margin-bottom: 10px;
 }
