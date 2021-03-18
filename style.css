@@ -46,11 +46,16 @@ blockquote {
 .avatar {
   display: block;
   margin: auto;
+  padding-top: 3%;
   border-radius: 50%;
 }
 
 .not-last-par {
   padding-bottom: 2%;
+}
+
+.strike {
+  text-decoration: line-through;
 }
 
 .bandung {
