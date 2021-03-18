@@ -47,7 +47,7 @@ blockquote {
   display: block;
   margin: auto;
   padding-top: 3%;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 .not-last-par {
