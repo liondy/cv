@@ -1,73 +1,72 @@
-*{
+* {
   margin: 0;
 }
 
-div{
-  margin-top: 15px;
+section {
+  width: 60%;
+  margin: auto;
+  padding-top: 3%;
 }
 
-ul{
-  list-style-type: none;
-  margin-top: 10px;
+h2 {
+  padding-bottom: 2%;
 }
 
-li{
-  padding: 0;
-  margin: 0 0 0.3em 0;
-}
-
-header,footer{
+header,
+footer {
+  padding-top: 2%;
   text-align: center;
   justify-content: center;
-}
-
-footer{
-  padding-top: 5%;
   display: block;
-  font-weight: 700;
 }
 
-.container{
+footer {
+  padding-bottom: 1%;
+}
+
+p {
+  text-align: justify;
+}
+
+u {
+  background-color: chartreuse;
+}
+
+blockquote {
+  padding-bottom: 2%;
+}
+
+.container {
   width: 60%;
   margin: auto;
   background-color: beige;
   padding-bottom: 1%;
 }
 
-.content-container{
-  width: 90%;
+.avatar {
+  display: block;
   margin: auto;
-}
-
-.section{
-  margin-left: 5%;
-}
-
-.image-container{
-  margin-top: 15px;
-  display: flex;
-  justify-content: center;
-}
-
-.avatar{
-  vertical-align: middle;
-  width: 200px;
-  height: 200px;
   border-radius: 50%;
 }
 
-.par{
-  margin-top: 15px;
-  padding-right: 15%;
-  text-align: justify;
-  justify-content: center;
+.not-last-par {
+  padding-bottom: 2%;
 }
 
-ul.skills li{
-  display: inline;
-  margin: 0.5em;
+.bandung {
+  background-color: burlywood;
 }
 
-.skills{
-  margin-bottom: 10px;
+@media screen and (max-width: 800px) {
+  .container {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
+  section {
+    width: 85%;
+  }
+
+  blockquote {
+    text-align: justify;
+  }
 }
