@@ -8,6 +8,10 @@ section {
   padding-top: 3%;
 }
 
+h1 {
+  text-transform: uppercase;
+}
+
 h2 {
   padding-bottom: 2%;
 }
